@@ -12,8 +12,11 @@ HOW TO USE:-
 3) Run the following script/batch file according to your Operating System and wallet mode:-
 
    [Windows] Saga_Loadblocks_Windows_GUI.bat
+   
    [MacOS X] Saga_Loadblocks_Mac_GUI.sh
+   
    [Linux (CLI mode)] Saga_Loadblocks_Linux_CLI.sh
+   
    [Linux (GUI mode)] Saga_Loadblocks_Linux_GUI.sh
    
    
@@ -21,4 +24,5 @@ HOW TO USE:-
 OR if you are good in command prompt, you may just run the wallet with parameter as following:-
 
    ./sagacoind -loadblock=blk0001.dat
+   
    [we use linux CLI wallet in this example, you may replace it with the SagaCoin wallet executable filename]
