@@ -26,3 +26,17 @@ OR if you are good in command prompt, you may just run the wallet with parameter
    ./sagacoind -loadblock=blk0001.dat
    
    [we use linux CLI wallet in this example, you may replace it with the SagaCoin wallet executable filename]
+   
+   
+   
+   
+ERROR SOLUTION: If you encounter error message of "Error Loading Block Database", here is the solution:-
+
+   Remove data folder (Remember to backup your wallet.dat file first if you have coin in your wallet) and re-try again with step 3 above.
+   
+   Here is the data folder location:-
+      Linux : ~/.SagaCoin/
+      Windows : C:\Users\[username]\AppData\Roaming\SagaCoin\
+      Mac : /Users/[username]/Library/Application Support/SagaCoin/
+      
+      
