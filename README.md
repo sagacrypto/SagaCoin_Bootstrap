@@ -1,11 +1,17 @@
 # SagaCoin_Bootstrap
 SagaCoin's bootstrap data file with script/batch file to make syncing faster.
 
-Latest bootstrap data block height = 204920
+Latest bootstrap data block height = 256325
+
+NOTE:-
+
+Due to file size limitation of github, we put our bootstrap file at google drive now. Please read instruction below carefully on retrieving bootstrap file.
 
 HOW TO USE:-
 
-1) Download latest bootstrap file from https://github.com/sagacrypto/SagaCoin_Bootstrap/releases.
+1) Download latest bootstrap file from https://drive.google.com/open?id=1wKDTUfGnQl259GOa1bCqqniAv6G6J8Eu. For Linux CLI user, you have to run the command following:-
+
+   wget --no-check-certificate -r 'https://docs.google.com/uc?export=download&id=1wKDTUfGnQl259GOa1bCqqniAv6G6J8Eu' -O sagacoin_bootstrap_256325.zip
 
 2) Unzip downloaded file to same your SagaCoin executable file's folder.
 
@@ -28,7 +34,7 @@ OR if you are good in command prompt, you may just run the wallet with parameter
    [we use linux CLI wallet in this example, you may replace it with the SagaCoin wallet executable filename]
    
    
-   
+-----------------------------------------------------------------   
    
 ERROR SOLUTION: If you encounter error message of "Error Loading Block Database", here is the solution:-
 
