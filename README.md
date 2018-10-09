@@ -1,17 +1,15 @@
 # SagaCoin_Bootstrap
 SagaCoin's bootstrap data file with script/batch file to make syncing faster.
 
-Latest bootstrap data block height = 256325
+Latest bootstrap data block height = 276226
 
 NOTE:-
 
-Due to file size limitation of github, we put our bootstrap file at google drive now. Please read instruction below carefully on retrieving bootstrap file.
+We just notice that github supports files larger than 100MB, so we decided to put bootstrap file back to github releases instead of google drive.
 
 HOW TO USE:-
 
-1) Download latest bootstrap file from https://drive.google.com/open?id=1wKDTUfGnQl259GOa1bCqqniAv6G6J8Eu. For Linux CLI user, you have to run the command following:-
-
-   wget --no-check-certificate -r 'https://docs.google.com/uc?export=download&id=1wKDTUfGnQl259GOa1bCqqniAv6G6J8Eu' -O sagacoin_bootstrap_256325.zip
+1) Download latest bootstrap file from https://github.com/sagacrypto/SagaCoin_Bootstrap/releases.
 
 2) Unzip downloaded file to same your SagaCoin executable file's folder.
 
