@@ -1,7 +1,7 @@
 # SagaCoin_Bootstrap
 SagaCoin's bootstrap data file with script/batch file to make syncing faster.
 
-Latest bootstrap data block height = 294424
+Latest bootstrap data block height = 441311
 
 NOTE:-
 
